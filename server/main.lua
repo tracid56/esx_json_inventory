@@ -109,9 +109,7 @@ AddEventHandler('es:playerLoaded', function(source, _player)
                 usable    = ESX.UsableItemsCallbacks[k] ~= nil,
                 rare      = ESX.Items[k].rare,
                 canRemove = ESX.Items[k].canRemove,
-              })
-
-              table.insert(inv, {item = k, count = 0})
+              })             
             end
           end
           
